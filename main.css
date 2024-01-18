@@ -13,6 +13,28 @@
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-position: center 0;
-    background-image: url(background.jpg);
-    background-attachment: fixed;
+    /*background-image: url(./background.jpg);
+    background-attachment: fixed;*/
+    background-color: blanchedalmond;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 6% 10%;
+    margin-left: 1%;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
 }
